@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".EmployeeDetailActivity">
+
+    <TextView
+        android:id="@+id/textViewWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Добро пожаловать"
+        android:textSize="24sp"
+        android:paddingBottom="16dp" />
+
+    <Button
+        android:id="@+id/buttonProfile"
+        android:layout_width="247dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/blue"
+        android:drawableLeft="@drawable/user_icon"
+        android:text="Профиль" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Можно оформить"
+        android:textSize="18sp"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp" />
+
+    <Button
+        android:id="@+id/buttonLeaveRequest"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/blue"
+        android:drawableLeft="@drawable/leave_icon"
+        android:text="Отпуск" />
+
+    <Button
+        android:id="@+id/buttonResignationRequest"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/resignation_icon"
+        android:backgroundTint="@color/blue"
+        android:text="Увольнение" />
+
+    <ImageView
+        android:id="@+id/imageViewProfile"
+        android:layout_width="329dp"
+        android:layout_height="274dp"
+        android:layout_gravity="left"
+        android:paddingBottom="16dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/employee" />
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="67dp"
+        android:backgroundTint="@color/red"
+        android:drawableLeft="@drawable/exit_icon"
+        android:text="Выход" />
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_text_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Имя"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edit_text_position"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Должность"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edit_text_salary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Зарплата"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/edit_text_leave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Отпуск"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/button_save_employee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/blue"
+        android:text="Save" />
+
+</LinearLayout>

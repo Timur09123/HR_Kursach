@@ -1,0 +1,28 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/resignation_request_text_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Resignation Request Info"/>
+
+    <Button
+        android:id="@+id/button_approve_resignation"
+        android:layout_width="wrap_content"
+        android:backgroundTint="@color/blue"
+        android:layout_height="wrap_content"
+        android:text="Разрешить"/>
+
+    <Button
+        android:id="@+id/button_decline_resignation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/blue"
+        android:text="Отклонить"/>
+</LinearLayout>

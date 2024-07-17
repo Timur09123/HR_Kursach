@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white"
+    tools:context=".ProfileActivity">
+
+    <TextView
+        android:id="@+id/textViewPersonalInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:paddingBottom="8dp" />
+
+    <ImageView
+        android:id="@+id/imageViewProfile"
+        android:layout_width="89dp"
+        android:layout_height="80dp"
+        android:layout_gravity="left"
+        android:paddingBottom="1dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/profile_icon" />
+
+    <TextView
+        android:id="@+id/textViewSalary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="16dp"
+        android:paddingBottom="8dp"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textViewLeave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingBottom="8dp"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textViewPosition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingBottom="8dp"
+        android:textSize="17sp" />
+
+</LinearLayout>
